@@ -1,9 +1,16 @@
-def roll_call_dwarves# code an argument here
-  # Your code here
+def roll_call_dwarves(array)
+  i = 0
+  if i < array.length
+    puts "#{i+1}. #{array[1]}"
+    i += 1
+  end
 end
+roll_call_dwarves(array)
 
-def summon_captain_planet# code an argument here
-  # Your code here
+def summon_captain_planet(planeteer)
+  new_planeteer = []
+  planeteer.map{|str| str.capitalize<<("!")}
+  new_planeteer
 end
 
 def long_planeteer_calls# code an argument here
