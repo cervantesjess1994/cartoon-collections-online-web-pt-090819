@@ -8,7 +8,11 @@ def roll_call_dwarves(array)
 end
 def summon_captain_planet(planeteer)
   new_planeteer = []
-  planeteer.map{|str| str.capitalize<<("!")}
+  i = 0
+  while i < array.length
+    new_planeteer << array[i].capitalize + "!"
+    i += 1
+  end
   new_planeteer
 end
 
