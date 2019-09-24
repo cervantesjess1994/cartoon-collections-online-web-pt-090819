@@ -4,7 +4,7 @@ def roll_call_dwarves(array)
     puts "#{i+1}. #{array[1]}"
     i += 1
   end
-  roll_call_dwarves(array)
+  roll_call_dwarves
 end
 
 
